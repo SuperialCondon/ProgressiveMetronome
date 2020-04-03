@@ -7,7 +7,35 @@
 		<key>ProgressiveMetronome.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ProgressiveMetronomeTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ProgressiveMetronomeUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>388DDC022436C15E00E03138</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>388DDC1B2436C16000E03138</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>388DDC262436C16000E03138</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
