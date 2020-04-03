@@ -12,7 +12,6 @@
 		388DDC0C2436C15E00E03138 /* ProgressiveMetronome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 388DDC0A2436C15E00E03138 /* ProgressiveMetronome.xcdatamodeld */; };
 		388DDC0E2436C15E00E03138 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DDC0D2436C15E00E03138 /* ContentView.swift */; };
 		388DDC102436C16000E03138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388DDC0F2436C16000E03138 /* Assets.xcassets */; };
-		388DDC132436C16000E03138 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388DDC122436C16000E03138 /* Preview Assets.xcassets */; };
 		388DDC162436C16000E03138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388DDC142436C16000E03138 /* LaunchScreen.storyboard */; };
 		388DDC212436C16000E03138 /* ProgressiveMetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DDC202436C16000E03138 /* ProgressiveMetronomeTests.swift */; };
 		388DDC2C2436C16000E03138 /* ProgressiveMetronomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388DDC2B2436C16000E03138 /* ProgressiveMetronomeUITests.swift */; };
@@ -42,7 +41,6 @@
 		388DDC0B2436C15E00E03138 /* ProgressiveMetronome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgressiveMetronome.xcdatamodel; sourceTree = "<group>"; };
 		388DDC0D2436C15E00E03138 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		388DDC0F2436C16000E03138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		388DDC122436C16000E03138 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		388DDC152436C16000E03138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		388DDC172436C16000E03138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388DDC1C2436C16000E03138 /* ProgressiveMetronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressiveMetronomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,17 +106,8 @@
 				388DDC142436C16000E03138 /* LaunchScreen.storyboard */,
 				388DDC172436C16000E03138 /* Info.plist */,
 				388DDC0A2436C15E00E03138 /* ProgressiveMetronome.xcdatamodeld */,
-				388DDC112436C16000E03138 /* Preview Content */,
 			);
 			path = ProgressiveMetronome;
-			sourceTree = "<group>";
-		};
-		388DDC112436C16000E03138 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				388DDC122436C16000E03138 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		388DDC1F2436C16000E03138 /* ProgressiveMetronomeTests */ = {
@@ -244,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				388DDC162436C16000E03138 /* LaunchScreen.storyboard in Resources */,
-				388DDC132436C16000E03138 /* Preview Assets.xcassets in Resources */,
 				388DDC102436C16000E03138 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +427,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressiveMetronome/Preview Content\"";
 				DEVELOPMENT_TEAM = NPX6WTX5FR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProgressiveMetronome/Info.plist;
@@ -459,7 +446,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressiveMetronome/Preview Content\"";
 				DEVELOPMENT_TEAM = NPX6WTX5FR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProgressiveMetronome/Info.plist;
