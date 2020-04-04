@@ -8,14 +8,28 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainTabView: View {
+    @State private var tabViewSelection = 0
+
     var body: some View {
-        Text("Hello World, I am an app that might do something important someday.")
+        TabView {
+            Text("Maybe metronome view goes here?")
+                .font(.title)
+                .tabItem {
+                    Image(systemName: "square.fill")
+                    Text("Home")
+                }
+            Text("Settings")
+                .tabItem {
+                    Image(systemName: "square.fill")
+                    Text("Settings")
+                }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainTabView()
     }
 }
